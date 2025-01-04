@@ -1,0 +1,163 @@
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f6fa;
+  --bg-tertiary: #e9ecef;
+  --text-primary: #2c3e50;
+  --text-secondary: #6c757d;
+  --accent-primary: #3498db;
+  --accent-secondary: #2980b9;
+  --border-color: #dee2e6;
+  --card-bg: #ffffff;
+  --success: #2ecc71;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Header */
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: var(--text-primary);
+}
+
+.nav-links a {
+  color: var(--text-secondary);
+}
+
+.nav-links a:hover {
+  color: var(--accent-primary);
+}
+
+/* Cards */
+.service-card,
+.responsibility-card,
+.result-card {
+  background: var(--card-bg);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.button,
+.cta-button,
+.submit-button {
+  background: var(--accent-primary);
+  color: white;
+}
+
+.button:hover,
+.cta-button:hover,
+.submit-button:hover {
+  background: var(--accent-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Forms */
+input,
+textarea {
+  background: var(--bg-primary);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--accent-primary);
+}
+
+/* Sliders */
+.slider {
+  background: var(--bg-tertiary);
+}
+
+.slider::-webkit-slider-thumb {
+  background: var(--accent-primary);
+}
+
+/* Calculator */
+.pricing-calculator {
+  background: var(--card-bg);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+.social-links a {
+  background: var(--white);
+  color: var(--text-primary);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-links a:hover {
+  background: var(--accent-primary);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.footer-section.links a {
+  color: var(--text-secondary);
+}
+
+.footer-section.links a:hover {
+  color: var(--accent-primary);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("https://placehold.co/1920x1080");
+}
+
+.hero-content {
+  color: white; /* Force le texte en blanc pour une meilleure lisibilité */
+}
+
+.hero::before {
+  background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.9));
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  background: var(--bg-primary);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle i {
+  color: var(--text-primary);
+}
+
+.theme-toggle:hover {
+  background: var(--bg-secondary);
+}
+
+/* Timeline Styles */
+.timeline::before {
+  background: var(--border-color);
+}
+
+.timeline-content {
+  background: var(--card-bg);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-icon {
+  box-shadow: 0 0 0 4px var(--bg-primary);
+}
+
+.timeline-number {
+  border: 3px solid var(--bg-primary);
+}

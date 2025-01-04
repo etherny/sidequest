@@ -1,0 +1,170 @@
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent-primary: #3498db;
+  --accent-secondary: #2980b9;
+  --border-color: #2a2a2a;
+  --card-bg: #151515;
+  --success: #2ecc71;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Header */
+header {
+  background-color: rgba(10, 10, 10, 0.8);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+  color: var(--text-primary);
+}
+
+.nav-links a {
+  color: var(--text-secondary);
+}
+
+.nav-links a:hover {
+  color: var(--accent-primary);
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("https://placehold.co/1920x1080");
+}
+
+.hero-content {
+  color: var(--text-primary);
+}
+
+.hero::before {
+  background: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.9));
+}
+
+/* Cards */
+.service-card,
+.responsibility-card,
+.result-card {
+  background: var(--card-bg);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+}
+
+/* Buttons */
+.button,
+.cta-button,
+.submit-button {
+  background: var(--accent-primary);
+  color: var(--text-primary);
+}
+
+.button:hover,
+.cta-button:hover,
+.submit-button:hover {
+  background: var(--accent-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Forms */
+input,
+textarea {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--accent-primary);
+}
+
+/* Sliders */
+.slider {
+  background: var(--bg-tertiary);
+}
+
+.slider::-webkit-slider-thumb {
+  background: var(--accent-primary);
+}
+
+/* Calculator */
+.pricing-calculator {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+/* Icons */
+.service-card i,
+.responsibility-icon i {
+  color: var(--accent-primary);
+}
+
+/* Footer */
+footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+.social-links a {
+  background: var(--card-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.social-links a:hover {
+  background: var(--accent-primary);
+  color: var(--text-primary);
+  transform: translateY(-3px);
+}
+
+.footer-section.links a {
+  color: var(--text-secondary);
+}
+
+.footer-section.links a:hover {
+  color: var(--accent-primary);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.theme-toggle i {
+  color: var(--text-primary);
+}
+
+.theme-toggle:hover {
+  background: var(--bg-tertiary);
+}
+
+/* Timeline Styles */
+.timeline::before {
+  background: var(--border-color);
+}
+
+.timeline-content {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.timeline-icon {
+  box-shadow: 0 0 0 4px var(--bg-primary);
+}
+
+.timeline-number {
+  border: 3px solid var(--bg-primary);
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPartner - Innovative Software Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">DevPartner</div>
+            <div class="theme-toggle" id="themeToggle">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#concept">Our Concept</a>
+                <a href="#responsibilities">Your Role</a>
+                <a href="#process">Process</a>
+                <a href="#business">Business Model</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Software Development with No Upfront Costs</h1>
+            <p>Innovative B2B solution: we develop your software for free, you only pay based on your success.</p>
+            <a href="#contact" class="cta-button">Start Your Project</a>
+        </div>
+    </section>
+
+    <section id="concept" class="services">
+        <h2>Our Commitment</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Software Development</h3>
+                <p>Desktop and mobile web applications, APIs, and more.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-server"></i>
+                <h3>Infrastructure</h3>
+                <p>Complete hosting and infrastructure management.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tools"></i>
+                <h3>Maintenance</h3>
+                <p>Technical support and continuous solution maintenance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="responsibilities" class="responsibilities">
+        <h2>Your Responsibilities</h2>
+        <div class="responsibilities-grid">
+            <div class="responsibility-card">
+                <div class="responsibility-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Drive Traffic</h3>
+                <p>Your main focus will be on bringing visitors to your application. We handle the technical aspects,
+                    you handle the business growth.</p>
+            </div>
+            <div class="responsibility-card">
+                <div class="responsibility-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Customer Support</h3>
+                <p>Manage your customer relationships and provide front-line support while we ensure your application
+                    runs smoothly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <h2>Our Process</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Submission</h3>
+                    <p>Fill out our form detailing your project and traffic goals.</p>
+                    <div class="timeline-number">1</div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Selection</h3>
+                    <p>Evaluation and selection of the most promising projects per round.</p>
+                    <div class="timeline-number">2</div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>Creation of your custom solution by our experts.</p>
+                    <div class="timeline-number">3</div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Deployment</h3>
+                    <p>Production launch and implementation support.</p>
+                    <div class="timeline-number">4</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="business" class="business-model">
+        <h2>Our Business Model</h2>
+        <div class="model-content">
+            <div class="model-image">
+                <img src="https://placehold.co/600x400" alt="Business Model Illustration">
+            </div>
+            <div class="model-details">
+                <ul>
+                    <li><i class="fas fa-check"></i> Free initial development</li>
+                    <li><i class="fas fa-check"></i> Payment based on active users</li>
+                    <li><i class="fas fa-check"></i> Cost reduction after break-even</li>
+                    <li><i class="fas fa-check"></i> Option to take full ownership</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>Calculate Your Investment</h2>
+        <div class="pricing-calculator">
+            <div class="calculator-inputs">
+                <div class="input-group">
+                    <label for="pageCount">Number of views</label>
+                    <div class="slider-container">
+                        <input type="range" id="pageCount" min="1" max="50" value="5" class="slider">
+                        <span class="slider-value" id="pageCountValue">5 views</span>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="visitorsCount">Estimated monthly unique visitors</label>
+                    <div class="slider-container">
+                        <input type="range" id="visitorsCount" min="100" max="10000" step="100" value="500"
+                            class="slider">
+                        <span class="slider-value" id="visitorsCountValue">500 visitors</span>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator-results">
+                <div class="result-card">
+                    <h3>Development Phase</h3>
+                    <div class="result-item">
+                        <span>Development cost:</span>
+                        <span id="developmentCost">$0</span>
+                    </div>
+                    <div class="result-item">
+                        <span>Monthly cost:</span>
+                        <span id="monthlyInitialCost">$0</span>
+                    </div>
+                    <div class="result-item">
+                        <span>Payback period:</span>
+                        <span id="paybackPeriod">0 months</span>
+                    </div>
+                </div>
+                <div class="result-card">
+                    <h3>Cruise Phase</h3>
+                    <div class="result-item">
+                        <span>Monthly cost:</span>
+                        <span id="monthlyFinalCost">$0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Start Your Project</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Project Scope</label>
+                    <input type="text" id="viewsInput" readonly>
+                    <input type="text" id="visitorsInput" readonly>
+                </div>
+                <input type="text" placeholder="Company name" required>
+                <input type="email" placeholder="Professional email" required>
+                <textarea placeholder="Describe your project" required></textarea>
+                <button type="submit" class="submit-button">Send your request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section brand">
+                <h4>DevPartner</h4>
+                <p>Innovation and development without financial risk.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#concept">Our Concept</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h4>Contact</h4>
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> contact@devpartner.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Montreal, QC, Canada</p>
+                    <p><i class="fas fa-phone"></i> +1 (514) 555-0123</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DevPartner. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="pricing.min.js"></script>
+    <script src="theme.min.js"></script>
+</body>
+
+</html>
